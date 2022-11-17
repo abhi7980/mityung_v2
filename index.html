@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MITYUNG | Building Information Engines</title>
+    <meta charset="utf-8">
+
+    <!-- SEO Tags -->
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="cannonical" href="https://www.mityung.com">
+    <!-- SEO Tags -->
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+
+    <!-- Load Require CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font CSS -->
+    <link href="../assets/css/boxicon.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Load Tempalte CSS -->
+    <link rel="stylesheet" href="assets/css/altered.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Schema -->
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Corporation",
+          "name": "MITYUNG",
+          "url": "https://www.mityung.com/",
+          "logo": "https://mityung.com/blog/wp-content/uploads/2022/05/logo.png",
+          "sameAs": [
+            "https://www.facebook.com/mityung/",
+            "https://twitter.com/mityung",
+            "https://www.youtube.com/channel/UCr7-aT2GK23IwbC8zW4xylg/videos",
+            "https://in.linkedin.com/company/mityung"
+          ]
+        }
+    </script>
+    <!-- Schema -->
+
+</head>
+
+<body>
+    <!-- Header -->
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light c-bg sticky-top">
+
+        <div class="container d-flex justify-content-lg-between align-items-center">
+
+            <a class="navbar-brand h1" href="/">
+                <img style="padding-top: 3px;" src="/assets/img/logo.png" alt="logo" />
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between"
+                id="navbar-toggler-success">
+                <div class="flex-fill mx-xl-5 mb-2">
+                    <ul class="nav navbar-nav d-flex justify-content-end mx-xl-5 text-center text-dark">
+                        <!-- <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.html">Home</a>
+                        </li> -->
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle btn-outline-primary rounded-pill px-3" href="#"
+                                id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Company
+                            </a>
+                            <ul class="dropdown-menu mt-2" aria-labelledby="navbarDropdown">
+                                <li><a class="nav-link btn-outline-primary rounded-pill px-3" href="./about">About</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="nav-link btn-outline-primary rounded-pill px-3" href="./career">Career</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="nav-link btn-outline-primary rounded-pill px-3" href="./about">Blog</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle btn-outline-primary rounded-pill px-3" href="#"
+                                id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Industries
+                            </a>
+                            <ul class="dropdown-menu mt-2" aria-labelledby="navbarDropdown">
+
+                                <li><a class="nav-link btn-outline-primary rounded-pill px-3"
+                                        href="./industries/healthcare-it/">Healthcare</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="nav-link btn-outline-primary rounded-pill px-3"
+                                        href="./industries/information-communication/">Information Technology</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="nav-link btn-outline-primary rounded-pill px-3"
+                                        href="./industries/retail/">Retail and e-Commerce</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="nav-link btn-outline-primary rounded-pill px-3"
+                                        href="./industries/automobile/">Automobile</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="nav-link btn-outline-primary rounded-pill px-3"
+                                        href="./industries/banking/">Banking and Finance</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="nav-link btn-outline-primary rounded-pill px-3"
+                                        href="./industries/e-learning/">Education and e-Learning</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="nav-link btn-outline-primary rounded-pill px-3"
+                                        href="./industries/real-estate/">Real Estate</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="./solutions/">Solutions</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle btn-outline-primary rounded-pill px-3" href="#"
+                                id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Portfolio
+                            </a>
+                            <ul class="dropdown-menu mt-2" aria-labelledby="navbarDropdown">
+                                <li><a class="nav-link btn-outline-primary rounded-pill px-3" href="./about">Dummy:1</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="nav-link btn-outline-primary rounded-pill px-3" href="./about">Dummy:2</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="nav-link btn-outline-primary rounded-pill px-3" href="./about">Dummy:3</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="/contact">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- <div class="navbar align-self-center d-flex">
+                    <a class="nav-link" href="#"><i class='bx bx-bell bx-sm bx-tada-hover text-primary'></i></a>
+                    <a class="nav-link" href="#"><i class='bx bx-cog bx-sm text-primary'></i></a>
+                    <a class="nav-link" href="#"><i class='bx bx-user-circle bx-sm text-primary'></i></a>
+                </div> -->
+            </div>
+        </div>
+    </nav>
+    <!-- Close Header -->
+
+
+    <!-- Start Banner Hero -->
+    <div class="banner-wrapper bg-light">
+        <div id="index_banner" class="banner-vertical-center-index container-fluid pt-5">
+
+            <!-- Start slider -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="4000">
+
+                        <div class="py-5 row d-flex align-items-center">
+                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
+                                <h1
+                                    class="banner-heading h1 text-secondary display-3 mb-0 pb-5 mx-0 px-0 light-300 typo-space-line">
+                                    Healthcare <strong>Software</strong> Development
+                                </h1>
+                                <p class="banner-body text-muted py-3 mx-0 px-0">
+                                    Facilitating Healthcare Automation
+                                </p>
+                                <a class="banner-button btn rounded-pill btn-outline-secondary btn-lg px-4"
+                                    href="./contact" role="button">Get Started</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="4000">
+
+                        <div class="py-5 row d-flex align-items-center">
+                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
+                                <h1
+                                    class="banner-heading h1 text-secondary display-3 mb-0 pb-5 mx-0 px-0 light-300 typo-space-line">
+                                    <strong>Software</strong> Development
+                                </h1>
+                                <p class="banner-body text-muted py-3 mx-0 px-0">
+                                    Delivering values across industries.
+                                </p>
+                                <a class="banner-button btn rounded-pill btn-outline-secondary btn-lg px-4"
+                                    href="./contact/" role="button">Get Started</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+
+                        <div class="py-5 row d-flex align-items-center">
+                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
+                                <h1
+                                    class="banner-heading h1 text-secondary display-3 mb-0 pb-5 mx-0 px-0 light-300 typo-space-line">
+                                    <strong>Cloud</strong> Computing Superhighways
+                                </h1>
+                                <p class="banner-body text-muted py-3">
+                                    Stretching Business Boundaries.
+                                </p>
+                                <a class="banner-button btn rounded-pill btn-outline-secondary btn-lg px-4" href="#"
+                                    role="button">Get Started</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="4000">
+
+                        <div class="py-5 row d-flex align-items-center">
+                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
+                                <h1
+                                    class="banner-heading h1 text-secondary display-3 mb-0 pb-5 mx-0 px-0 light-300 typo-space-line">
+                                    Data <strong>Analytics</strong> Solution
+                                </h1>
+                                <p class="banner-body text-muted py-3">
+                                    Streamlining Actionable Information
+                                </p>
+                                <a class="banner-button btn rounded-pill btn-outline-secondary btn-lg px-4" href="#"
+                                    role="button">Get Started</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="4000">
+
+                        <div class="py-5 row d-flex align-items-center">
+                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
+                                <h1
+                                    class="banner-heading h1 text-secondary display-3 mb-0 pb-5 mx-0 px-0 light-300 typo-space-line">
+                                    Information <strong>Security</strong> Solution
+                                </h1>
+                                <p class="banner-body text-muted py-3">
+                                    Your Security. Our Passion.
+                                </p>
+                                <a class="banner-button btn rounded-pill btn-outline-secondary btn-lg px-4" href="#"
+                                    role="button">Get Started</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <a class="carousel-control-prev text-decoration-none" href="#carouselExampleIndicators" role="button"
+                    data-bs-slide="prev">
+                    <i class='bx bx-chevron-left'></i>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next text-decoration-none" href="#carouselExampleIndicators" role="button"
+                    data-bs-slide="next">
+                    <i class='bx bx-chevron-right'></i>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+            <!-- End slider -->
+
+        </div>
+    </div>
+    <!-- End Banner Hero -->
+
+
+
+
+
+    <!-- Start Service -->
+    <section class="service-wrapper py-3">
+        <h2 class="h2 text-center col-12 py-3 text-secondary semi-bold-800">Our Services</h2>
+        <div class="service-tag py-4 bg-secondary">
+
+            <div class="col-md-12">
+                <ul class="nav d-flex justify-content-center">
+                    <li class="nav-item mx-lg-4">
+                        <a class="filter-btn nav-link btn-outline-primary rounded-pill active text-light px-4 light-300 fs-6"
+                            href="#" data-filter=".project">All</a>
+                    </li>
+
+                    <li class="nav-item mx-lg-4">
+                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300 fs-6"
+                            href="#" data-filter=".hea">Healthcare IT Solutions</a>
+                    </li>
+                    <li class="nav-item mx-lg-4">
+                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300 fs-6"
+                            href="#" data-filter=".sod">Web/Mobile App Development</a>
+                    </li>
+                    <li class="filter-btn nav-item mx-lg-4">
+                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300 fs-6"
+                            href="#" data-filter=".ana">Data Analytics</a>
+                    </li>
+                    <li class="nav-item mx-lg-4">
+                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300 fs-6"
+                            href="#" data-filter=".ins">Information Security</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container overflow-hidden py-5">
+        <div class="row gx-5 gx-sm-3 gx-lg-5 gy-lg-5 gy-3 pb-3 projects">
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project hea">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="service card-img" src="./assets/img/sevices/interoperability_engine.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span
+                                class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Interoperability</span>
+                            <p class="card-text">Interoperability engine and platform</p>
+                        </div>
+                    </div>
+                </a>
+            </div><!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project hea">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="service card-img" src="./assets/img/sevices/telehealth.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Telehealth
+                                Solutions</span>
+                            <p class="card-text">Telehealth and Telemedicine Solutions</p>
+                        </div>
+                    </div>
+                </a>
+            </div><!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project hea">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="service card-img" src="./assets/img/sevices/emr_integration.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Integration
+                                Services</span>
+                            <p class="card-text">EMR/EHR integration services</p>
+                        </div>
+                    </div>
+                </a>
+            </div><!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project hea">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="service card-img" src="./assets/img/sevices/clinincal_intelligence.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Clinical
+                                Intelligence</span>
+                            <p class="card-text">Intelligent application Development</p>
+                        </div>
+                    </div>
+                </a>
+            </div><!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project hea">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="./assets/img/sevices/rcm.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">RCM System</span>
+                            <p class="card-text">Revenue Cycle Management System Development</p>
+                        </div>
+                    </div>
+                </a>
+            </div><!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project hea">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="./assets/img/sevices/m_bill.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Medical
+                                Billing</span>
+                            <p class="card-text">Medical Billing System Development</p>
+                        </div>
+                    </div>
+                </a>
+            </div><!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project sod">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="./assets/img/sevices/c_soft.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Custom
+                                Softwares</span>
+                            <p class="card-text">Custom Software Development</p>
+                        </div>
+                    </div>
+                </a>
+            </div><!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <!-- <div class="col-xl-3 col-md-4 col-sm-6 project sod">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="./assets/img/services-05.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">App
+                                Development</span>
+                            <p class="card-text">Web and Mobile Applications Development</p>
+                        </div>
+                    </div>
+                </a>
+            </div> -->
+            
+            <!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project sod">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="./assets/img/sevices/e_commerce.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">e-Commerce</span>
+                            <p class="card-text">e-Commerce Application Development</p>
+                        </div>
+                    </div>
+                </a>
+            </div><!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project sod">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="./assets/img/sevices/integration.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Integration
+                                Services</span>
+                            <p class="card-text">Integrating Systems Seamlessly</p>
+                        </div>
+                    </div>
+                </a>
+            </div><!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project ana">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="./assets/img/sevices/dashboards.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span
+                                class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Dashboarding</span>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                        </div>
+                    </div>
+                </a>
+            </div><!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project ana">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="./assets/img/sevices/in_memory.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">In-Memory
+                                Analytics</span>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                        </div>
+                    </div>
+                </a>
+            </div><!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project ana">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="./assets/img/sevices/d_analytics.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Distributed
+                                Analytics Engine</span>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                        </div>
+                    </div>
+                </a>
+            </div><!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project ana">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="./assets/img/sevices/b_analytics.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Business
+                                Analytics Engine</span>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                        </div>
+                    </div>
+                </a>
+            </div><!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project ins">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="./assets/img/sevices/infra_security.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Infrastructure
+                                Security</span>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                        </div>
+                    </div>
+                </a>
+            </div><!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project ins">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="./assets/img/sevices/vulnerability.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Vulnerability
+                                Management</span>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                        </div>
+                    </div>
+                </a>
+            </div><!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project ins">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="./assets/img/sevices/incident.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Incident
+                                Response</span>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                        </div>
+                    </div>
+                </a>
+            </div><!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <div class="col-xl-3 col-md-4 col-sm-6 project ins">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="./assets/img/sevices/compliances.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <span
+                                class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Compliances</span>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                        </div>
+                    </div>
+                </a>
+            </div><!-- End Recent Work -->
+
+        </div>
+    </section>
+    <!-- End Service -->
+
+
+    <!-- Slider -->
+
+    <div class="cuslider">
+        <div class="cuslide-track">
+            <div class="cuslide">
+                <img class="cuimg" src="./assets/img/clients/1.png" alt="">
+            </div>
+            <div class="cuslide">
+                <img class="cuimg" src="./assets/img/clients/2.png" alt="">
+            </div>
+            <div class="cuslide">
+                <img class="cuimg" src="./assets/img/clients/3.png" alt="">
+            </div>
+            <div class="cuslide">
+                <img class="cuimg" src="./assets/img/clients/4.png" alt="">
+            </div>
+            <div class="cuslide">
+                <img class="cuimg" src="./assets/img/clients/5.png" alt="">
+            </div>
+            <div class="cuslide">
+                <img class="cuimg" src="./assets/img/clients/6.png" alt="">
+            </div>
+            <div class="cuslide">
+                <img class="cuimg" src="./assets/img/clients/7.png" alt="">
+            </div>
+            <div class="cuslide">
+                <img class="cuimg" src="./assets/img/clients/8.png" alt="">
+            </div>
+            <div class="cuslide">
+                <img class="cuimg" src="./assets/img/clients/9.png" alt="">
+            </div>
+            <div class="cuslide">
+                <img class="cuimg" src="./assets/img/clients/10.png" alt="">
+            </div>
+            <div class="cuslide">
+                <img class="cuimg" src="./assets/img/clients/11.png" alt="">
+            </div>
+            <div class="cuslide">
+                <img class="cuimg" src="./assets/img/clients/12.png" alt="">
+            </div>
+            <div class="cuslide">
+                <img class="cuimg" src="./assets/img/clients/13.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Slider -->
+
+
+
+    <!-- Start View Work -->
+    <!-- <section class="bg-secondary">
+        <div class="container py-5">
+            <div class="row d-flex justify-content-center text-center">
+                <div class="col-lg-2 col-12 text-light align-items-center">
+                    <i class='display-1 bx bxs-box bx-lg'></i>
+                </div>
+                <div class="col-lg-7 col-12 text-light pt-2">
+                    <h3 class="h4 light-300">Great transformations successful</h3>
+                    <p class="light-300">Quis ipsum suspendisse ultrices gravida.</p>
+                </div>
+                <div class="col-lg-3 col-12 pt-4">
+                    <a href="#" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2">View Our Work</a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- End View Work -->
+
+    <!-- Start Recent Work -->
+    <section class="py-5 mb-5">
+        <div class="container">
+            <div class="recent-work-header row text-center pb-5">
+                <h2 class="col-md-6 m-auto h2 semi-bold-600 py-5">Industries</h2>
+            </div>
+            <div class="row gy-5 g-lg-5 mb-4">
+
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a class="recent-work card border-0 shadow-lg overflow-hidden ind1">
+                        <img class="recent-work-img card-img" src="./assets/img/industry/healthcareit.jpg" alt="Card image">
+                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="recent-work-content text-start mb-6 ml-3 text-dark">
+                                <h3 class="card-title light-300">Healthcare</h3>
+                                <p class="card-text hide" id="custom-hide1">We develop robust, custom-built healthcare
+                                    software for different sectors including hospitals, physicians, clinics
+                                    and much more. We use the power of analytics, automation, and
+                                    AI to spark evolution and inspire better outcomes.
+                                    <br>
+                                    <br>
+                                    <button class="learn-btn1 btn btn-outline-dark rounded-pill mb-3">Learn
+                                        More</button>
+
+                                </p>
+
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a class="recent-work card border-0 shadow-lg overflow-hidden ind2">
+                        <img class="recent-work-img card-img" src="./assets/img/industry/automobile.jpg" alt="Card image">
+                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="recent-work-content text-start mb-6 ml-3 text-dark">
+                                <h3 class="card-title light-300">Automobile</h3>
+
+                                <p class="card-text hide" id="custom-hide2">MITYUNG, with over a decade of experience
+                                    and a flawless track record, assists Automobile companies with future-proof
+                                    Automobile technology solutions and delivers robust and seamless experiences to our
+                                    clients.
+
+                                    <br>
+                                    <br>
+                                    <button class="learn-btn2 btn btn-outline-dark rounded-pill mb-2">Learn
+                                        More</button>
+
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a class="recent-work card border-0 shadow-lg overflow-hidden ind3">
+                        <img class="recent-work-img card-img" src="./assets/img/industry/retail.jpg" alt="Card image">
+                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="recent-work-content text-start mb-6 ml-3 text-dark">
+                                <h3 class="card-title light-300">Retail and e-Commerce</h3>
+
+                                <p class="card-text hide" id="custom-hide3">Having issues with large retail management?
+                                    Don't be concerned. MITYUNG is here to help you with everything from retail software
+                                    development to POS systems and billing to commercial operations to much more.
+                                    <br>
+                                    <br>
+                                    <button class="learn-btn3 btn btn-outline-dark rounded-pill mb-2">Learn
+                                        More</button>
+
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a class="recent-work card border-0 shadow-lg overflow-hidden ind4">
+                        <img class="recent-work-img card-img" src="./assets/img/industry/education.jpg" alt="Card image">
+                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="recent-work-content text-start mb-6 ml-3 text-dark">
+                                <h3 class="card-title light-300">Education</h3>
+
+                                <p class="card-text hide" id="custom-hide4">MITYUNG develops personalised E-learning
+                                    software for higher education institutions, colleges/universities, primary schools,
+                                    trade schools, high schools, and enterprise-level corporations.
+                                    <br>
+                                    <br>
+                                    <button class="learn-btn4 btn btn-outline-dark rounded-pill mb-2">Learn
+                                        More</button>
+
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a class="recent-work card border-0 shadow-lg overflow-hidden ind5">
+                        <img class="recent-work-img card-img" src="./assets/img/industry/itsoftware.jpg" alt="Card image">
+                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="recent-work-content text-start mb-6 ml-3 text-dark">
+                                <h3 class="card-title light-300">IT Software</h3>
+
+                                <p class="card-text hide" id="custom-hide5">A house for every sector we build IT
+                                    software that is secure, robust, fast and compliant for the fast-paced era of
+                                    technology. Our team of experts offer personalised IT software solutions that bring
+                                    spark evolution for our clients.
+                                    <br>
+                                    <br>
+                                    <button class="learn-btn5 btn btn-outline-dark rounded-pill mb-2">Learn
+                                        More</button>
+
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a class="recent-work card border-0 shadow-lg overflow-hidden ind6">
+                        <img class="recent-work-img card-img" src="./assets/img/industry/banking.jpg" alt="Card image">
+                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="recent-work-content text-start mb-6 ml-3 text-dark">
+                                <h3 class="card-title light-300">Banking and Finance</h3>
+
+                                <p class="card-text hide" id="custom-hide6">MITYUNG creates secure, robust, compliant,
+                                    and fast financial software development services for the finance industry, offering
+                                    custom-tailored solutions for all aspects of the Banking and Finance Industry.
+
+                                    <br>
+                                    <br>
+                                    <button class="learn-btn6 btn btn-outline-dark rounded-pill mb-2">Learn
+                                        More</button>
+
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+
+            </div>
+        </div>
+    </section>
+    <!-- End Recent Work -->
+
+
+<!-- Technologies Used -->
+
+    <!-- <section class="container overflow-hidden py-1">
+        <div class="row text-center pb-5">
+            <h2 class="col-md-6 m-auto h2 semi-bold-600 py-3 ">Technologies We Use</h2>
+        </div>
+
+    
+       
+</section> -->
+
+    <!-- Technologies Used -->
+
+
+
+    <!-- Start Footer -->
+    <footer class="bg-dark pt-4">
+        <div class="container">
+            <div class="row py-4">
+
+                <div class="col-lg-3 col-12 align-left">
+                    <a class="navbar-brand" href="./">
+                        <img class="px-1 " src="/assets/img/logo_white.png" alt="logo" />
+                    </a>
+                    <p class="text-light my-lg-4 my-2">
+
+                    </p>
+                    <ul class="list-inline footer-icons light-300 text-left">
+                        <li class="list-inline-item m-0 px-3">
+                            <a class="text-light" target="_blank" href="http://facebook.com/">
+                                <i class='bx bxl-facebook-square bx-md'></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0 px-3">
+                            <a class="text-light" target="_blank" href="https://www.linkedin.com/">
+                                <i class='bx bxl-linkedin-square bx-md'></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0 px-3">
+                            <a class="text-light" target="_blank" href="https://www.twitter.com/">
+                                <i class='bx bxl-twitter bx-md'></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h3 class="h4 pb-lg-3 text-light light-300">Our Company</h2>
+                        <ul class="list-unstyled text-light light-300">
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                    class="text-decoration-none text-light" href="index.html">Home</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                    class="text-decoration-none text-light py-1" href="./about/">About Us</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                    class="text-decoration-none text-light py-1" href="./solutions/">Solutions</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a
+                                    class="text-decoration-none text-light py-1" href="./career/">Career</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                    class="text-decoration-none text-light py-1" href="./contact/">Contact</a>
+                            </li>
+                        </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">Our Services</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                class="text-decoration-none text-light py-1"
+                                href="./industries/healthcare-it/">Healthcare IT</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                class="text-decoration-none text-light py-1"
+                                href="./industries/e-learning/">e-Learning</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                class="text-decoration-none text-light py-1" href="./">Automobile</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                class="text-decoration-none text-light py-1" href="./">Banking</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                class="text-decoration-none text-light py-1" href="#">Real Estate</a>
+                        </li>
+                        <!-- <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#"></a>
+                        </li> -->
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">Contact Us</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="tel: 8851641741"> 885-164-1741</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="mailto: info@mityung.com"> info@mityung.com</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-home bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="./contact/"> 1123, Olive Drive </a>
+                            <p> CA 95616, USA</p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="w-100 bg-dark py-3">
+            <div class="container">
+                <p class="text-lg text-center text-light light-300">
+                    © Copyright 2021 MITYUNG LLC. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Load jQuery require for isotope -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Isotope -->
+    <script src="assets/js/isotope.pkgd.js"></script>
+    <!-- Page Script -->
+    <script>
+        $(window).load(function () {
+            // init Isotope
+            var $projects = $('.projects').isotope({
+                itemSelector: '.project',
+                layoutMode: 'fitRows'
+            });
+            $(".filter-btn").click(function () {
+                var data_filter = $(this).attr("data-filter");
+                $projects.isotope({
+                    filter: data_filter
+                });
+                $(".filter-btn").removeClass("active");
+                $(".filter-btn").removeClass("shadow");
+                $(this).addClass("active");
+                $(this).addClass("shadow");
+                return false;
+            });
+        });
+    </script>
+    <!-- Templatemo -->
+    <script src="assets/js/templatemo.js"></script>
+    <!-- Custom -->
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
