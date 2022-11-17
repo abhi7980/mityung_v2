@@ -1,8 +1,44 @@
-/*
-Custom CSS for TemplateMo 561 Purple Buzz
+/* slider */
+.cuslider{
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+    background-color: #444444;
+}
 
-https://templatemo.com/tm-561-purple-buzz
+@keyframes cuscroll{
+    0%{
+        transform: translateX(0);
+    }
 
-*/
+    100%{
+        transform: translateX(calc(-300px * 7));
+    }
+}
 
+.cuslider .cuslide-track{
+    animation: cuscroll 40s linear infinite;
+    display: flex;
+    width: calc(300px * 14);
+}
 
+.cuslider .cuslide{
+    height: 100px;
+    width: 300px;
+    padding: 1rem;
+}
+
+.cuslider .cuimg{
+    height: 75px;
+    width: 200px;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}

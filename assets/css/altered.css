@@ -127,7 +127,7 @@ p, a {font-weight: 400;}
   transition: .5s;
 }
 .recent-work .recent-work-vertical:hover div.recent-work-content {
-  top: 50%;
+  top: 30%;
   margin-top: -2.5em;
   position: absolute;
 }
@@ -157,13 +157,13 @@ p, a {font-weight: 400;}
 .partner-wap:hover {
   background-color: #b1b3f5;
 }
-.why-us {
-  background: rgb(239,239,253);
-  background: -moz-linear-gradient(0deg, rgba(239,239,253,1) 50%, rgba(255,255,255,1) 50%);
-  background: -webkit-linear-gradient(0deg, rgba(239,239,253,1) 50%, rgba(255,255,255,1) 50%);
-  background: linear-gradient(0deg, rgba(239,239,253,1) 50%, rgba(255,255,255,1) 50%);
+/* .why-us {
+  background: rgb(200, 200, 200);
+  background: -moz-linear-gradient(0deg,rgb(200, 200, 200) 50%, rgba(255,255,255,1) 50%);
+  background: -webkit-linear-gradient(0deg, rgb(200, 200, 200) 50%, rgba(255,255,255,1) 50%);
+  background: linear-gradient(0deg, rgb(200, 200, 200) 50%, rgba(255,255,255,1) 50%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#efeffd",endColorstr="#ffffff",GradientType=1);
-}
+} */
 .team-member-img {
   transition-duration: 0.15s;
 }
